@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hRJiy+OYzsobYPf6YklssdQV5eWLA0CgJPGhrNVbqkK/Z/caBcTQHdr2XUetMXvBzQLFnGNAEIAUg143GnLRkw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\Todos Mis Archivos\\Programación\\Lenguajes de Programación\\DotNet\\TIENDAWEBV01\\TIENDAWEBV01\\TIENDAWEBV01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo Yoga\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
