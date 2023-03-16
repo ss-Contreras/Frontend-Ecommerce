@@ -46,6 +46,11 @@ namespace TIENDAWEBV01.Controllers
 
             return View(vm);
         }
+        public async Task<IActionResult> DetalleProducto()
+        {
+
+            return View();
+        }
 
     }
 }
