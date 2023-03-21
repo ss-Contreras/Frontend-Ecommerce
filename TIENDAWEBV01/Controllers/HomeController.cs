@@ -46,10 +46,55 @@ namespace TIENDAWEBV01.Controllers
 
             return View(vm);
         }
-        public async Task<IActionResult> DetalleProducto()
+        public async Task<IActionResult> DetalleProducto(int IdProducto)
+        {
+            Productos productos = new Productos();
+            string apiString;
+            using (HttpResponseMessage response = await conexion.GetAsync("Productos/ObtenerIdCategoria/" + IdProducto))
+            {
+                apiString = await response.Content.ReadAsStringAsync();
+                productos = JsonConvert.DeserializeObject<Productos>(apiString);
+            }
+
+            return View(productos);
+        }
+        public async Task<IActionResult> AboutUs()
         {
 
             return View();
+        }
+
+        public async Task<IActionResult> Cart()
+        {
+            IndexVM vm = new IndexVM();
+            string apiString;
+            using (HttpResponseMessage response = await conexion.GetAsync("categorias/categorias"))
+            {
+                apiString = await response.Content.ReadAsStringAsync();
+                vm.categorias = JsonConvert.DeserializeObject<List<Categorias>>(apiString);
+            }
+            using (HttpResponseMessage response = await conexion.GetAsync("productos/getproductos"))
+            {
+                apiString = await response.Content.ReadAsStringAsync();
+                vm.productos = JsonConvert.DeserializeObject<List<Productos>>(apiString);
+            }
+            return View(vm);
+        }
+        public async Task<IActionResult> CheckOut()
+        {
+            IndexVM vm = new IndexVM();
+            string apiString;
+            using (HttpResponseMessage response = await conexion.GetAsync("categorias/categorias"))
+            {
+                apiString = await response.Content.ReadAsStringAsync();
+                vm.categorias = JsonConvert.DeserializeObject<List<Categorias>>(apiString);
+            }
+            using (HttpResponseMessage response = await conexion.GetAsync("productos/getproductos"))
+            {
+                apiString = await response.Content.ReadAsStringAsync();
+                vm.productos = JsonConvert.DeserializeObject<List<Productos>>(apiString);
+            }
+            return View(vm);
         }
 
     }

@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Lenovo Yoga\OneDrive\Documentos\Todos Mis Archivos\Programación\Lenguajes de Programación\DotNet\TIENDAWEBV01\TIENDAWEBV01
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Lenovo Yoga/OneDrive/Documentos/Todos Mis Archivos/Programación/Lenguajes de Programación/DotNet/TIENDAWEBV01/TIENDAWEBV01/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo Yoga/OneDrive/Documentos/Todos Mis Archivos/Programación/Lenguajes de Programación/DotNet/TIENDAWEBV01/TIENDAWEBV01/Views/Home/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo Yoga/OneDrive/Documentos/Todos Mis Archivos/Programación/Lenguajes de Programación/DotNet/TIENDAWEBV01/TIENDAWEBV01/Views/Home/CheckOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja091dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo Yoga/OneDrive/Documentos/Todos Mis Archivos/Programación/Lenguajes de Programación/DotNet/TIENDAWEBV01/TIENDAWEBV01/Views/Home/DetalleProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhbGxlUHJvZHVjdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
