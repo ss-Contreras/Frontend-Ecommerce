@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UJY8SRqDnt7iPD6cWCAU+kcL4cHPZvd+vpq/WYfJPZw=",
+  "Hash": "QSrWuSEcDSCY3VZASG2/y4vTPTs+J9UUM+MPh/ee/UI=",
   "Source": "TIENDAWEBV01",
   "BasePath": "_content/TIENDAWEBV01",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\Todos Mis Archivos\\Programación\\Lenguajes de Programación\\DotNet\\TIENDAWEBV01\\TIENDAWEBV01\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TIENDAWEBV01.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\Todos Mis Archivos\\Programación\\Lenguajes de Programación\\DotNet\\TIENDAWEBV01\\TIENDAWEBV01\\wwwroot\\css\\index.css",
+      "SourceId": "TIENDAWEBV01",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\Todos Mis Archivos\\Programación\\Lenguajes de Programación\\DotNet\\TIENDAWEBV01\\TIENDAWEBV01\\wwwroot\\",
+      "BasePath": "_content/TIENDAWEBV01",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
     },
     {
       "Identity": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\Todos Mis Archivos\\Programación\\Lenguajes de Programación\\DotNet\\TIENDAWEBV01\\TIENDAWEBV01\\wwwroot\\css\\site.css",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\Todos Mis Archivos\\Programación\\Lenguajes de Programación\\DotNet\\TIENDAWEBV01\\TIENDAWEBV01\\wwwroot\\img\\background6.jpg",
+      "SourceId": "TIENDAWEBV01",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\Todos Mis Archivos\\Programación\\Lenguajes de Programación\\DotNet\\TIENDAWEBV01\\TIENDAWEBV01\\wwwroot\\",
+      "BasePath": "_content/TIENDAWEBV01",
+      "RelativePath": "img/background6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\background6.jpg"
     },
     {
       "Identity": "C:\\Users\\Lenovo Yoga\\OneDrive\\Documentos\\Todos Mis Archivos\\Programación\\Lenguajes de Programación\\DotNet\\TIENDAWEBV01\\TIENDAWEBV01\\wwwroot\\img\\carousel-1.jpg",

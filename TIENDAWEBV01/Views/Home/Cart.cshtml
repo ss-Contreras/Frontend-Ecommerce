@@ -1,4 +1,9 @@
-﻿@model TIENDAWEBV01.ViewModels.IndexVM;
+﻿@model List<TIENDAWEBV01.ViewModels.CarritoVM>;
+
+@{
+    ViewData["Title"] = "Sección de compra";
+}
+
 
 
 <div class="container-fluid pt-5">
@@ -7,15 +12,23 @@
             <table class="table table-bordered text-center mb-0">
                 <thead class="bg-secondary text-dark">
                     <tr>
-                        <th>Productos</th>
-                        <th>Precio</th>
+                        <th>Producto</th>
+                        @*<th>Precio</th>
                         <th>Cantidad</th>
                         <th>Total</th>
-                        <th>Eliminar</th>
+                        <th>Eliminar</th>*@
                     </tr>
                 </thead>
                 <tbody class="align-middle">
-                    @foreach (var productos in Model.productos)
+
+                    @foreach(var carrito in Model)
+                    {
+                        <tr>
+                            <td>@carrito.NombreProducto</td>
+                        </tr>    
+                    }
+
+                    @*@foreach (var productos in Model.productos)
                     {
                         <tr>
                             <td class="align-middle text-left"><img src="@productos.Ruta" alt="" style="width: 50px;"> @productos.Nombre</td>
@@ -38,7 +51,7 @@
                             <td class="align-middle">$150</td>
                             <td class="align-middle"><button class="btn btn-sm btn-primary"><i class="fa fa-times"></i></button></td>
                         </tr>
-                    }
+                    }*@
                 </tbody>
             </table>
         </div>
